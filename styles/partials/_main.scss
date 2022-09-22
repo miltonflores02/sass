@@ -1,0 +1,155 @@
+body{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.d-block{
+    height: 40vw;
+    width: 100vw;
+}
+.carrousel-box{
+    position: relative;
+    display: inline-block;
+    .d-block{
+        height: 40vw;
+        width: 100vw;
+    }
+    .carrousel-title{
+        background-color: rgba(0, 0, 0, 0.5);
+        color:rgb(172, 135, 135);
+        font-size: 2.5vw;
+        position: absolute;
+        top: 7vw;
+        left: 60vw;
+    }
+    .carrousel-text{
+        background-color: rgba(0, 0, 0, 0.5);
+        color:rgb(224, 202, 202);
+        font-size: 2.2vw;
+        padding-top: 1.5vw;
+        padding-bottom: 1vw;
+        position: absolute;
+        top: 11vw;
+        left: 60vw;
+    }
+    .btn{
+        color: black;
+        height:5vw ;
+        width: 6vw ;
+        background-color: rgba(0, 0, 0, 0.5);
+        font-size: 1.5vw;
+        position: absolute;
+        top: 23vw;
+        left: 60vw;
+    }
+}
+ 
+.container-grid{
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr;
+    grid-template-rows: 1.5fr 1.5fr;
+    grid-auto-columns: 1fr;
+    gap: 2vw 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "jujuy misiones santa-cruz"
+      "salta tucuman buenos-aires";
+      justify-items: center;
+    margin-top: 5vw;
+    
+    .jujuy{
+        background-color: black;
+        color: white;
+        transition: 1s;
+        width: 22vw;
+        &:hover{
+            text-align: center;
+            scale: 1.2;
+            color: white;
+            size-adjust: 2vw;
+            height: 20vw;
+            height: auto;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+    }
+   
+    .misiones{
+        background-color: black;
+        color: white;
+        transition: 1s;
+        width: 22vw;
+        &:hover{
+            text-align: center;
+            scale: 1.2;
+            color: white;
+            size-adjust: 2vw;
+            height: 20vw;
+            height: auto;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+    }
+    
+    .santa-cruz{
+        background-color: black;
+        color: white;
+        transition: 1s;
+        width: 22vw;
+        &:hover{
+            text-align: center;
+            scale: 1.2;
+            color: white;
+            size-adjust: 2vw;
+            height: 20vw;
+            height: auto;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+    }
+   
+    .salta{
+        background-color: black;
+        color: white;
+        transition: 1s;
+        width: 22vw;
+        &:hover{
+            text-align: center;
+            scale: 1.2;
+            color: white;
+            size-adjust: 2vw;
+            height: 20vw;
+            height: auto;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+    }
+    
+    .tucuman{
+        background-color: black;
+        color: white;
+        transition: 1s;
+        width: 22vw;
+        &:hover{
+            text-align: center;
+            scale: 1.2;
+            color: white;
+            size-adjust: 2vw;
+            height: 20vw;
+            height: auto;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+    }
+    
+    .buenos-aires{
+        background-color: black;
+        color: white;
+        transition: 1s;
+        width: 22vw;
+        &:hover{
+            text-align: center;
+            scale: 1.2;
+            color: white;
+            size-adjust: 2vw;
+            height: 20vw;
+            height: auto;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+            
+    }
+
+}

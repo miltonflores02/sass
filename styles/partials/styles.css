@@ -1,0 +1,223 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding: 1vw;
+  border-style: double;
+  background-color: rgba(3, 40, 61, 0.7450980392);
+}
+header .logo {
+  display: flex;
+  border-style: double;
+  width: 6vw;
+  height: 5vw;
+  background-color: rgba(0, 60, 95, 0);
+}
+header .list {
+  font-size: 1.3vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: rgba(3, 74, 116, 0.5137254902) 0, 0, 0, 0.5;
+}
+header .links {
+  display: inline;
+  margin: 0.5vw;
+  font-family: DynaPuff;
+  background-color: rgba(0, 60, 95, 0);
+  border-color: black;
+  color: aliceblue;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.d-block {
+  height: 40vw;
+  width: 100vw;
+}
+
+.carrousel-box {
+  position: relative;
+  display: inline-block;
+}
+.carrousel-box .d-block {
+  height: 40vw;
+  width: 100vw;
+}
+.carrousel-box .carrousel-title {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(172, 135, 135);
+  font-size: 2.5vw;
+  position: absolute;
+  top: 7vw;
+  left: 60vw;
+}
+.carrousel-box .carrousel-text {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(224, 202, 202);
+  font-size: 2.2vw;
+  padding-top: 1.5vw;
+  padding-bottom: 1vw;
+  position: absolute;
+  top: 11vw;
+  left: 60vw;
+}
+.carrousel-box .btn {
+  color: black;
+  height: 5vw;
+  width: 6vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 1.5vw;
+  position: absolute;
+  top: 23vw;
+  left: 60vw;
+}
+
+.container-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 1.5fr;
+  grid-template-rows: 1.5fr 1.5fr;
+  grid-auto-columns: 1fr;
+  gap: 2vw 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "jujuy misiones santa-cruz" "salta tucuman buenos-aires";
+  justify-items: center;
+  margin-top: 5vw;
+}
+.container-grid .jujuy {
+  background-color: black;
+  color: white;
+  transition: 1s;
+  width: 22vw;
+}
+.container-grid .jujuy:hover {
+  text-align: center;
+  scale: 1.2;
+  color: white;
+  size-adjust: 2vw;
+  height: 20vw;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.container-grid .misiones {
+  background-color: black;
+  color: white;
+  transition: 1s;
+  width: 22vw;
+}
+.container-grid .misiones:hover {
+  text-align: center;
+  scale: 1.2;
+  color: white;
+  size-adjust: 2vw;
+  height: 20vw;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.container-grid .santa-cruz {
+  background-color: black;
+  color: white;
+  transition: 1s;
+  width: 22vw;
+}
+.container-grid .santa-cruz:hover {
+  text-align: center;
+  scale: 1.2;
+  color: white;
+  size-adjust: 2vw;
+  height: 20vw;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.container-grid .salta {
+  background-color: black;
+  color: white;
+  transition: 1s;
+  width: 22vw;
+}
+.container-grid .salta:hover {
+  text-align: center;
+  scale: 1.2;
+  color: white;
+  size-adjust: 2vw;
+  height: 20vw;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.container-grid .tucuman {
+  background-color: black;
+  color: white;
+  transition: 1s;
+  width: 22vw;
+}
+.container-grid .tucuman:hover {
+  text-align: center;
+  scale: 1.2;
+  color: white;
+  size-adjust: 2vw;
+  height: 20vw;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.container-grid .buenos-aires {
+  background-color: black;
+  color: white;
+  transition: 1s;
+  width: 22vw;
+}
+.container-grid .buenos-aires:hover {
+  text-align: center;
+  scale: 1.2;
+  color: white;
+  size-adjust: 2vw;
+  height: 20vw;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+footer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-direction: row;
+  align-items: flex-end;
+  background-color: rgba(3, 40, 61, 0.7450980392);
+  font-size: 25px;
+  font-weight: bold;
+  font-family: DynaPuff;
+  margin-top: 5%;
+  color: black;
+  padding: 14px;
+}
+footer .logo {
+  display: flex;
+  border-style: double;
+  width: 6vw;
+  height: 5vw;
+  background-color: rgba(0, 60, 95, 0);
+}
+footer .icon {
+  height: 3vw;
+  width: 3vw;
+}
+footer .foot {
+  padding: 10px;
+  color: black;
+}
+
+h3 {
+  font-size: 2.2vw;
+  margin-top: 4vw;
+  text-align: center;
+}
+
+img {
+  height: 10vw;
+  width: 10vw;
+}
+
+/*# sourceMappingURL=styles.css.map */

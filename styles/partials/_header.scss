@@ -1,0 +1,32 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 1vw;
+    border-style: double;   
+    background-color: #03283dbe;
+    .logo{    
+        display: flex;
+        border-style: double;
+        width: 6vw;
+        height: 5vw;
+        background-color: #003c5f00;
+
+    }
+        .list{
+            font-size: 1.3vw;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            background-color: #034a7483(0, 0, 0, 0.5);
+        }
+            .links{
+                display: inline;
+                margin: .5vw;
+                font-family:DynaPuff;   
+                background-color: #003c5f00;    
+                border-color: black;
+                color: aliceblue;
+            }
+}
